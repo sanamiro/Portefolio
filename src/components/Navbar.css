@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, rgb(233 189 21) 0%, rgb(233 189 21) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -18,17 +18,6 @@
     max-width: 1500px;
 }
 
-.navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-}
-
 .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
@@ -40,9 +29,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
+    width: 30vw;
 }
 
 .nav-item {
@@ -54,14 +41,14 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    justify-content: center;
     height: 100%;
 }
 
-    .nav-links:hover {
-        border-bottom: 4px solid #fff;
-        transition: all 0.2s ease-out;
-    }
+.nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+}
 
 .fa-bars {
     color: #fff;
@@ -84,7 +71,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 90vh;
+        height: 40vh;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -92,13 +79,13 @@
         transition: all 0.5s ease;
     }
 
-        .nav-menu.active {
-            background: #242222;
-            left: 0;
-            opacity: 1;
-            transition: all 0.5s ease;
-            z-index: 1;
-        }
+    .nav-menu.active {
+        background: #242222;
+        left: 0;
+        opacity: 0.9;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
 
     .nav-links {
         text-align: center;
@@ -107,18 +94,12 @@
         display: table;
     }
 
-        .nav-links:hover {
-            background-color: #fff;
-            color: #242424;
-            border-radius: 0;
-        }
-
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 50%);
+    .nav-links:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
     }
+
 
     .menu-icon {
         display: block;
