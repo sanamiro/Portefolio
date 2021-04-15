@@ -1,0 +1,105 @@
+.icons {
+    padding: 4rem;
+    background: #fff;
+}
+
+
+.icons-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.icons_wrapper {        /*Position du groupe des icones par rapport à la page*/
+    position: relative;
+    /*margin: 50px 0 45px;*/
+}
+
+.icons-items {
+    /*margin-bottom: 24px;*/
+}
+
+.icon-item {
+    display: flex;
+    flex: 1;
+    margin: 0 10px;        /*Taille des marges entre les icones*/
+    border-radius: 10px;
+    width: 200px;
+    max-width: 200px;
+}
+
+.icon-wrapper {
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);*/
+    /*-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));*/
+    /*filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));*/
+    /*border-radius: 10px;*/
+    /*overflow: hidden;*/
+    /*text-decoration: none;*/
+    /*width: 100%;*/
+}
+
+.icon-img-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+}
+
+.fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+}
+
+
+.icon-item-img {
+    position: relative;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 35px;
+    /*display: block;*/
+    width: 60%;             /*taille de l'image dans la case*/
+    max-width: 80%;
+    height: 60%;
+    max-height: 80%;
+    /*object-fit: cover;*/
+    transition: all 0.2s linear;
+}
+
+/*.icon-item-img:hover { HOVER FUNCTION
+    transform: scale(1.1);
+}*/
+
+/*.icon-text-wrapper {
+    padding: 20px 30px 30px;
+}*/
+
+.icon-item-txt {
+    color: #252e48;
+    font-size: 20px;
+    line-height: 35px;
+    text-align : center;
+}
+
+@media only screen and (min-width: 1200px) { TAILLE MAXIMUM DES CARTES ? IDK
+    .content__blog__container {
+        width: 84%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .icons-items {
+        display: flex;
+    }
+}
+
+/*@media only screen and (max-width: 1024px) {
+    .icons-item {
+        margin-bottom: 2rem;
+    }
+}*/

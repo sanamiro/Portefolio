@@ -1,0 +1,38 @@
+.timeline{
+
+}
+
+.timeline-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: auto;
+}
+
+.timeline-image-container {
+    margin-left: 10%;
+}
+
+.timeline-image{
+
+}
+
+.timeline-items-container {
+
+}
+
+.timeline-item {
+    margin-bottom : 150px;
+}
+
+.timeline-item-titre{
+
+}
+
+.timeline-item-titre {
+
+}
+
+.timeline-item-titre {
+
+}
