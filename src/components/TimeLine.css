@@ -10,7 +10,7 @@
 }
 
 .timeline-image-container {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .timeline-image{
@@ -18,21 +18,22 @@
 }
 
 .timeline-items-container {
-
+    margin-top : 10%;
+    margin-left : 10%;
 }
 
 .timeline-item {
-    margin-bottom : 150px;
+    margin-bottom : 20%;
 }
 
 .timeline-item-titre{
 
 }
 
-.timeline-item-titre {
+.timeline-item-date {
 
 }
 
-.timeline-item-titre {
+.timeline-item-txt {
 
 }

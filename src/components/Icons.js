@@ -2,7 +2,14 @@ import React from 'react';
 import IconItem from './IconItem';
 import './Icons.css';
 
-import PythIcon from "../images/python.png";
+import PythIcon from "../images/python-brands.svg";
+import UnityIcon from "../images/unity-brands.svg";
+import BoltIcon from "../images/bolt-solid.svg";
+import BatteryIcon from "../images/battery.svg";
+import LightBulbIcon from "../images/lightbulb-regular.svg";
+import MathIcon from "../images/math.svg";
+import ProjectIcon from "../images/project.svg";
+import DiceIcon from "../images/dice-solid.svg";
 
 function Icons() {
 	return (
@@ -12,15 +19,15 @@ function Icons() {
 				<div className='icons_wrapper'>
 					<ul className='icons-items'>
 						<IconItem
-							src={PythIcon}
+							src={LightBulbIcon}
 							txt="Cr&eacute;atif"
 						/>
 						<IconItem
-							src={PythIcon}
+							src={BatteryIcon}
 							txt="Autonome"
 						/>
 						<IconItem
-							src={PythIcon}
+							src={BoltIcon}
 							txt="Dynamique"
 						/>
 					</ul>
@@ -28,19 +35,19 @@ function Icons() {
 				<div className = 'icons_wrapper'>
 					<ul className='icons-items'>
 						<IconItem
-							src={PythIcon}
+							src={UnityIcon}
 							txt="Unity"
 						/>
 						<IconItem
-							src={PythIcon}
+							src={ProjectIcon}
 							txt="Gestion de Projet"
 						/>
 						<IconItem
-							src={PythIcon}
+							src={DiceIcon}
 							txt="Game Design"
 						/>
 						<IconItem
-							src={PythIcon}
+							src={MathIcon}
 							txt="Sciences Dures"
 						/>
 						<IconItem
