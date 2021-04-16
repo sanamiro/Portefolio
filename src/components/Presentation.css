@@ -1,0 +1,29 @@
+.presentation {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.presentation-txt {
+    margin-top : 5%;
+    width: 50%;
+}
+
+.presentation-name {
+    text-align: left;
+    font-size: 60px;
+}
+
+.presentation-desc {
+    font-size: 30px;
+}
+
+.presentation-img-wrapper {
+
+}
+
+.presentation-img {
+    height : 400px;
+}

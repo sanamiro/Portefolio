@@ -31,9 +31,9 @@
 }
 
 .timeline-item-date {
-
+    font-style: italic;
 }
 
 .timeline-item-txt {
-
+    text-align: justify;
 }

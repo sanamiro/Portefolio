@@ -6,37 +6,23 @@ function Cards() {
     return (
         <div className = 'cards'>
             <h1> Mes Projets </h1>
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
-                    <ul className="cards__items">
-                        <CardItem
-                            src='images/img-9.jpg'
-                            text="Explore some stuffie stuff down in the Amazon Jungle"
-                            label='Adventure'
-                            path = '/Services'
-                        />
-                        <CardItem
-                            src='images/img-2.jpg'
-                            text="Have a bad time at a horrible hotel"
-                            label='NotAdventure'
-                            path='/Services'
-                        />
-                    </ul>
-                    <ul className="cards__items">
-                        <CardItem
-                            src='images/img-9.jpg'
-                            text="Explore some stuffie stuff down in the Amazon Jungle"
-                            label='Adventure'
-                            path='/Services'
-                        />
-                        <CardItem
-                            src='images/img-2.jpg'
-                            text="Have a bad time at a horrible hotel"
-                            label='NotAdventure'
-                            path='/Services'
-                        />
-                    </ul>
-                </div>
+            <div className='cards-container'>
+                <CardItem
+                    src='/'
+                    title="Projet 1"
+                />
+                <CardItem
+                    src='/'
+                    title="Projet 2"
+                />
+                <CardItem
+                    src='/'
+                    title="Projet 3"
+                />
+                <CardItem
+                    src='/'
+                    title="Projet 4"
+                />
             </div>
         </div>
         )
