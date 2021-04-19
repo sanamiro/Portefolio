@@ -23,20 +23,19 @@ h1 {
 .cards-item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    width : 60%; /*PASSER A 100% en Mobile*/
+    margin-top : 5%;
     border-radius: 10px;
 }
 
 .cards-item-wrapper {
     display: flex;
     flex-flow: column;
-    width: 700px;
+    width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
-    overflow: hidden;
-    text-decoration: none;
 }
 
 .cards-item-pic-wrap {
@@ -80,9 +79,9 @@ h1 {
     transition: all 0.2s linear;
 }
 
-    .cards-item-img:hover { /*HOVER FUNCTION*/
-        transform: scale(1.1);
-    }
+    /*.cards-item-img:hover {*/ /*HOVER FUNCTION*/
+        /*transform: scale(1.1);
+    }*/
 
 .cards-item-header {
     padding: 20px 30px 30px;
@@ -90,16 +89,38 @@ h1 {
 
 .cards-item-title {
     color: #252e48;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
 }
 
 .cards-item-txt {
-
-    font-size : 15px;
+    margin-top: 2%;
+    font-size: 20px;
+    width : 90%;
+    margin-left: 5%;
 }
 
-@media only screen and (min-width: 1200px) {  /*TAILLE MAXIMUM DES CARTES ? IDK*/
+.cards-item-links {
+    height: 13%;
+    margin-top : 2%;
+}
+
+.cards-item-link-button {
+    float: right;
+    height: 8%;
+    width: 8%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-width: 0 0 0 0;
+    background-color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+.cards-item-link-button:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 1200px) { /*TAILLE MAXIMUM DES CARTES ? IDK*/
     .content-blog-container {
         width: 84%;
     }

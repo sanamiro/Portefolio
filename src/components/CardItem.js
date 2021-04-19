@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import DriveLogo from '../images/google-drive.svg';
+import YTLogo from '../images/youtube.svg';
+import GitLogo from '../images/github.svg';
+import ItchIoLogo from '../images/itch-io.svg';
 
 function CardItem(props) {
-
-    const toto = false;
 
     return (
         <>
@@ -16,7 +20,24 @@ function CardItem(props) {
                             className="cards-item-img" />
                     </figure>  
                     <div className="cards-item-txt"> {props.texte} </div>
-                    {toto && <h1> test </h1>}
+                    <div className="cards-item-links">
+                        {props.linkGit != null && <a href={props.linkGit} target="_blank" rel="noopener noreferrer">
+                            <button className="cards-item-link-button"> <img src={GitLogo} /> </button>
+                        </a>
+                        }
+                        {props.linkYT != null && <a href={props.linkYT} target="_blank" rel="noopener noreferrer">
+                            <button className="cards-item-link-button"> <img src={YTLogo}/> </button>
+                        </a>
+                        }
+                        {props.linkDrive != null && <a href={props.linkDrive} target="_blank" rel="noopener noreferrer">
+                            <button className="cards-item-link-button"> <img src={DriveLogo} /> </button>
+                        </a>
+                        }
+                        {props.linkItch != null && <a href={props.linkItch} target="_blank" rel="noopener noreferrer">
+                            <button className="cards-item-link-button"> <img src={ItchIoLogo} /> </button>
+                        </a>
+                        }
+                    </div>
                 </div>
             </li>
         </>

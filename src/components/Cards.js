@@ -18,7 +18,8 @@ function Cards() {
                             permettant d&apos;expliciter les codes de cartographie sp&eacute;cifiques utilis&eacute;s. Orient&apos;AR permet de montrer en 3D ce que
                             la carte en 2D repr&eacute;sente, et permet donc &agrave; de nouveaux venus dans ce sport de mieux comprendre et visualiser comment
                            fonctionne une carte de course d&apos;orientation.</p>}
-                    linkGit=""
+                    linkGit="https://github.com/florian-las/MapAR"
+                    linkYT = "https://google.com"
                 />
                 <CardItem
                     src={MapARImg}
