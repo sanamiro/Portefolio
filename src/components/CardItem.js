@@ -2,6 +2,8 @@ import React from 'react';
 
 function CardItem(props) {
 
+    const toto = false;
+
     return (
         <>
             <li className="cards-item">
@@ -11,8 +13,10 @@ function CardItem(props) {
                     </div>
                     <figure className="cards-item-pic-wrap">
                         <img src={props.src} alt="Travel Img"
-                            className = "cards-item-img"/>
+                            className="cards-item-img" />
                     </figure>  
+                    <div className="cards-item-txt"> {props.texte} </div>
+                    {toto && <h1> test </h1>}
                 </div>
             </li>
         </>

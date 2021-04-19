@@ -94,6 +94,11 @@ h1 {
     line-height: 24px;
 }
 
+.cards-item-txt {
+
+    font-size : 15px;
+}
+
 @media only screen and (min-width: 1200px) {  /*TAILLE MAXIMUM DES CARTES ? IDK*/
     .content-blog-container {
         width: 84%;
