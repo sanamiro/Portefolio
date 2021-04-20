@@ -1,4 +1,5 @@
 import React from 'react';
+import {Section} from 'react-scroll-section';
 import IconItem from './IconItem';
 import './Icons.css';
 
@@ -13,7 +14,7 @@ import DiceIcon from "../images/dice-solid.svg";
 
 function Icons() {
 	return (
-		<div className='icons'>
+		<Section id="sectionProfil" className='icons'>
 			<h1> Mon Profil </h1>
 			<div className='icons-container'>
 				<div className='icons_wrapper'>
@@ -57,7 +58,7 @@ function Icons() {
 					</ul>
 				</div>
 			</div>
-		</div>
+		</Section>
 		)
 }
 

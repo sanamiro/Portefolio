@@ -6,7 +6,7 @@ import TimeLineImg from "../images/TimeLineImg.png";
 
 function TimeLine() {
     return (
-        <div className = 'timeline'>
+        <div id="sectionParcours" className='timeline'>
             <h1> Mon Parcours </h1>
 
             <div className='timeline-container'>
