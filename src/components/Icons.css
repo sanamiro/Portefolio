@@ -1,107 +1,80 @@
 .icons {
-    padding: 4rem;
-    background: #fff;
+    font-size: 20px;
 }
 
 
 .icons-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+
 }
 
-.icons_wrapper {        /*Position du groupe des icones par rapport à la page*/
-    position: relative;
-    /*margin: 50px 0 45px;*/
-}
-
-.icons-items {
-    /*margin-bottom: 24px;*/
+.icons-line-wrapper { /*Position du groupe des icones par rapport à la page*/
+    text-align: center;
 }
 
 .icon-item {
-    display: flex;
-    flex: 1;
-    margin: 0 20px;        /*Taille des marges entre les icones*/
-    border-radius: 10px;
-    width: 250px;
-    max-width: 300px;
-}
-
-.icon-wrapper {
-    /*display: flex;*/
-    /*flex-flow: column;*/
-    /*box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);*/
-    /*-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));*/
-    /*filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));*/
-    /*border-radius: 10px;*/
-    /*overflow: hidden;*/
-    /*text-decoration: none;*/
-    /*width: 100%;*/
+    display: inline-block;
 }
 
 .icon-img-wrapper {
-    position: relative;
     width: 300px;
     height: 300px;
     padding-top: 40%;
     overflow: hidden;
 }
 
-.fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-}
-
 
 .icon-item-img {
-    position: relative;
-    top: 0px;
-    right: 0;
-    bottom: 0;
-    left: 20%;
-    /*display: block;*/
-    width: 60%;             /*taille de l'image dans la case*/
+    width: auto;             /*taille de l'image dans la case*/
     max-width: 80%;
-    height: 60%;
+    height: auto;
     max-height: 80%;
-    /*object-fit: cover;*/
-    transition: all 0.2s linear;
 }
 
-/*.icon-item-img:hover { HOVER FUNCTION
-    transform: scale(1.1);
-}*/
-
-/*.icon-text-wrapper {
-    padding: 20px 30px 30px;
-}*/
 
 .icon-item-txt {
     color: #252e48;
-    margin-top : 5%;
     font-size: 20px;
-    line-height: 35px;
     text-align : center;
 }
 
-@media only screen and (min-width: 1200px) { TAILLE MAXIMUM DES CARTES ? IDK
-    .content__blog__container {
-        width: 84%;
+
+@media only screen and (max-width: 1024px) {
+
+    .icons {
+    }
+
+
+    .icons-container {
+    }
+
+    .icons-line-wrapper { /*Position du groupe des icones par rapport à la page*/
+        text-align: center;
+    }
+
+    .icon-item {
+        display: inline-block;
+    }
+
+    .icon-img-wrapper {
+        width: 150px;
+        height: 150px;
+        padding-top: 40%;
+        overflow: hidden;
+    }
+
+
+    .icon-item-img {
+        width: 70%; /*taille de l'image dans la case*/
+        max-width: 80%;
+        height: 70%;
+        max-height: 80%;
+    }
+
+
+    .icon-item-txt {
+        color: #252e48;
+        font-size: 20px;
+        line-height:14px;
+        text-align: center;
     }
 }
-
-@media only screen and (min-width: 1024px) {
-    .icons-items {
-        display: flex;
-    }
-}
-
-/*@media only screen and (max-width: 1024px) {
-    .icons-item {
-        margin-bottom: 2rem;
-    }
-}*/

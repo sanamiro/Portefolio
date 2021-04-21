@@ -38,8 +38,9 @@ function Navbar() {
                         <div className='nav-item'>
                             <Link to="sectionProfil"
                                 className='nav-links'
+                                activeClass="active"
                                 spy={true} smooth={true}
-                                offset={-50}
+                                offset={-150}
                                 duration={500}
                                 onClick={closeMenu}
                             >
@@ -49,8 +50,9 @@ function Navbar() {
                         <div className='nav-item'>
                             <Link to="sectionParcours"
                                 className='nav-links'
+                                activeClass="active"
                                 spy={true} smooth={true}
-                                offset={-100}
+                                offset={-150}
                                 duration={500}
                                 onClick={closeMenu}
                             >
@@ -60,8 +62,9 @@ function Navbar() {
                         <div className='nav-item'>
                             <Link to="sectionProjets"
                                 className='nav-links'
+                                activeClass="active"
                                 spy={true} smooth={true}
-                                offset={-50}
+                                offset={-100}
                                 duration={500}
                                 onClick={closeMenu}
                             >
@@ -71,8 +74,9 @@ function Navbar() {
                         <div className='nav-item'>
                             <Link to="sectionContact"
                                 className='nav-links'
+                                activeClass="active"
                                 spy={true} smooth={true}
-                                offset={-50}
+                                offset={-250}
                                 duration={500}
                                 onClick={closeMenu}
                             >

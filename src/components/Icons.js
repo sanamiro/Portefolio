@@ -17,8 +17,7 @@ function Icons() {
 		<Section id="sectionProfil" className='icons'>
 			<h1> Mon Profil </h1>
 			<div className='icons-container'>
-				<div className='icons_wrapper'>
-					<ul className='icons-items'>
+				<div className='icons-line-wrapper'>
 						<IconItem
 							src={LightBulbIcon}
 							txt="Cr&eacute;atif"
@@ -31,10 +30,8 @@ function Icons() {
 							src={BoltIcon}
 							txt="Dynamique"
 						/>
-					</ul>
 				</div>
-				<div className = 'icons_wrapper'>
-					<ul className='icons-items'>
+				<div className= 'icons-line-wrapper'>
 						<IconItem
 							src={UnityIcon}
 							txt="Unity"
@@ -55,7 +52,6 @@ function Icons() {
 							src={PythIcon}
 							txt="Python"
 						/>
-					</ul>
 				</div>
 			</div>
 		</Section>

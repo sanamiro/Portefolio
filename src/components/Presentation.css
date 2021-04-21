@@ -7,7 +7,7 @@
 }
 
 .presentation-txt {
-    margin-top : 5%;
+    margin-top : 10%;
     width: 50%;
 }
 
@@ -26,4 +26,31 @@
 
 .presentation-img {
     height : 400px;
+}
+
+@media only screen and (max-width: 1024px){
+    .presentation {
+        margin-left: 4%;
+        margin-right: 0%;
+    }
+
+    .presentation-txt {
+        margin-top: 5%;
+        width: 60%;
+    }
+
+    .presentation-name {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .presentation-desc {
+        font-size: 15px;
+    }
+
+    .presentation-img {
+        height: 150px;
+        margin-top : 3%;
+        margin-left : 10%;
+    }
 }
