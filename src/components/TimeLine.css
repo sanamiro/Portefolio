@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     width: 80%;
-    height: auto;
 }
 
 .timeline-image-container {
@@ -36,4 +35,47 @@
 
 .timeline-item-txt {
     text-align: justify;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .timeline-container {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .timeline-image-container {
+        margin-left: 50%;
+        z-index:0;
+    }
+
+    .timeline-image {
+        opacity: 0.3;
+    }
+
+    .timeline-items-container {
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        z-index: 1;
+    }
+
+    .timeline-item {
+        margin-bottom: 48%;
+    }
+
+    .timeline-item-titre {
+        font-size : 18px;
+    }
+
+    .timeline-item-date {
+        font-size: 14px;
+    }
+
+    .timeline-item-txt {
+        font-size: 14px;
+    }
+
 }
