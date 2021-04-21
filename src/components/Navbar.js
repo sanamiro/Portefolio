@@ -50,7 +50,7 @@ function Navbar() {
                             <Link to="sectionParcours"
                                 className='nav-links'
                                 spy={true} smooth={true}
-                                offset={-50}
+                                offset={-100}
                                 duration={500}
                                 onClick={closeMenu}
                             >
@@ -69,7 +69,7 @@ function Navbar() {
                             </Link>
                         </div>
                         <div className='nav-item'>
-                            <Link Link="sectionContact"
+                            <Link to="sectionContact"
                                 className='nav-links'
                                 spy={true} smooth={true}
                                 offset={-50}

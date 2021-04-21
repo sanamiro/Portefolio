@@ -1,0 +1,35 @@
+.contact{
+    margin-bottom : 5%;
+}
+
+.contact-title{
+    margin-bottom : 4%;
+}
+
+.contact-items-wrapper{
+
+}
+
+.contact-txt{
+    text-align : center;
+    margin-bottom : 2%;
+}
+
+.contact-logo-wrapper {
+    text-align : center;
+}
+
+.contact-logo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: all 0.2s linear;
+}
+
+
+
+.contact-logo:hover {
+    transform: scale(1.1);
+}
